@@ -4,6 +4,8 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Error from './routes/Error.jsx'
+import Home from './routes/Home.jsx'
+import Aluno from './routes/Aluno.jsx'
 {/*CRIANDO A FUNÇÃO CREATEBROWSERROTER*/}
 
 const router = createBrowserRouter([
